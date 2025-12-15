@@ -1,3 +1,42 @@
-.exe
-.obj
-.pdb
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Compiled binaries 
+*.exe
+*.out
+*.app
+*.dll
+*.so
+
+# Object files
+*.o 
+*.obj
+
+# Debug & symbol files 
+*.pdb
+*.idb
+
+#  Visual Studio 
+.vs/
+*.vcxproj.user
+*.suo
+*.log
+
+# Build folders 
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# VS Code 
+.vscode/
+
+# Temporary files 
+*.tmp
+*.bak
+*.swp
+
+# OS files 
+.DS_Store
+Thumbs.db
